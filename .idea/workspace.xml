@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5bb9ad63-eed7-4690-b695-c05e7ee7630b" name="Changes" comment="Init commit with plenty of problems solved">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/3Sum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Candy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ContainerWithMostWater.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/GasStation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/HIndex.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/IndexOfFirstOccurrence.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/IntegerToRoman.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/InterviewTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/IsSubsequence.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JumpGame.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JumpGame2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/LengthOfLastWord.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/LongestCommonPrefix.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/LongestSubstringWithoutRepeatingChars.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/MajorityElement.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/MergeSortedArray.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/MinimumSizeSubarraySum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/MinimumWindowSubstring.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ProductOfArrayExceptSelf.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/RandomizedSet.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/RemoveDuplicates.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/RemoveDuplicates2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/RemoveElement.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ReverseWords.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/RomanToInt.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/RotateArray.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/SellStock.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/SellStock2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/SubstringWithConcatenationOfAllWords.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/TextJustification.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/TrappingRainWater.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/TrappingRainWater_OOPTry.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/TwoSumInputArrayIsSorted.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ValidPalindrome.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ZigzagConversion.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hashmap/ContainsDuplicate2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hashmap/GroupAnagrams.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hashmap/HappyNumber.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hashmap/IsomorphicStrings.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hashmap/LongestConsecutiveSequence.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hashmap/RansomNote.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hashmap/TwoSum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hashmap/ValidAnagram.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hashmap/WordPattern.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/intervals/BurstBalloonsWithArrow.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/intervals/InsertInterval.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/intervals/MergeIntervals.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/intervals/SummaryRanges.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/LinkedListCycle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/matrix/GameOfLife.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/matrix/RotateImage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/matrix/SetMatrixZeroes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/matrix/SpiralMatrix.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/matrix/ValidSudoku.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/stack/BasicCalculator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/stack/EvaluateReversePolishNotation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/stack/MinStack.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/stack/SimplifyPath.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/stack/ValidParentheses.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/CandyTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/GasStationTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/HIndexTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/JumpGame2Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Logger.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/TextJustificationTest.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="algorithms" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.8.21/16a7151d48fb07d503c3c9e12e0656bbd56fd288/kotlin-stdlib-common-1.8.21-sources.jar!/generated/_Collections.kt" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.8.21/16a7151d48fb07d503c3c9e12e0656bbd56fd288/kotlin-stdlib-common-1.8.21-sources.jar!/generated/_Ranges.kt" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.8.21/16a7151d48fb07d503c3c9e12e0656bbd56fd288/kotlin-stdlib-common-1.8.21-sources.jar!/kotlin/collections/Collections.kt" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.8.21/16a7151d48fb07d503c3c9e12e0656bbd56fd288/kotlin-stdlib-common-1.8.21-sources.jar!/kotlin/collections/Iterables.kt" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.8.21/16a7151d48fb07d503c3c9e12e0656bbd56fd288/kotlin-stdlib-common-1.8.21-sources.jar!/kotlin/collections/LinkedHashSet.kt" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.8.21/16a7151d48fb07d503c3c9e12e0656bbd56fd288/kotlin-stdlib-common-1.8.21-sources.jar!/kotlin/properties/Delegates.kt" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.8.21/16a7151d48fb07d503c3c9e12e0656bbd56fd288/kotlin-stdlib-common-1.8.21-sources.jar!/kotlin/ranges/Progressions.kt" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.8.21/6a8d4dfebb88f951bcd9f58636f085bf24ff3e8b/kotlin-stdlib-1.8.21-sources.jar!/generated/_ArraysJvm.kt" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.8.21/6a8d4dfebb88f951bcd9f58636f085bf24ff3e8b/kotlin-stdlib-1.8.21-sources.jar!/kotlin/Arrays.kt" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.8.21/6a8d4dfebb88f951bcd9f58636f085bf24ff3e8b/kotlin-stdlib-1.8.21-sources.jar!/kotlin/Collections.kt" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.8.21/6a8d4dfebb88f951bcd9f58636f085bf24ff3e8b/kotlin-stdlib-1.8.21-sources.jar!/kotlin/Primitives.kt" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.8.21/6a8d4dfebb88f951bcd9f58636f085bf24ff3e8b/kotlin-stdlib-1.8.21-sources.jar!/kotlin/text/TypeAliases.kt" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.8.21/6a8d4dfebb88f951bcd9f58636f085bf24ff3e8b/kotlin-stdlib-1.8.21-sources.jar!/kotlin/util/LazyJVM.kt" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/corretto-17.0.7/lib/src.zip!/java.base/java/lang/AbstractStringBuilder.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/corretto-17.0.7/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/corretto-17.0.7/lib/src.zip!/java.base/java/lang/StringBuilder.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/corretto-17.0.7/lib/src.zip!/java.base/java/lang/StringLatin1.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/corretto-17.0.7/lib/src.zip!/java.base/java/util/Arrays.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/corretto-17.0.7/lib/src.zip!/java.base/java/util/DualPivotQuicksort.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/corretto-17.0.7/lib/src.zip!/java.base/java/util/HashMap.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/corretto-17.0.7/lib/src.zip!/java.base/java/util/HashSet.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: -1
+}</component>
+  <component name="ProjectId" id="2RSovB5jFAAqC5geIXvYxcTTGVN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortKey" value="BY_TIME_DESCENDING" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vsuha\IdeaProjects\algorithms\src\main\kotlin\matrix" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="matrix" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.LinkedListCycleKt">
+    <configuration name="BasicCalculatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.BasicCalculatorKt" />
+      <module name="algorithms.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BurstBalloonsWithArrowKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intervals.BurstBalloonsWithArrowKt" />
+      <module name="algorithms.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListCycleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.LinkedListCycleKt" />
+      <module name="algorithms.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimplifyPathKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.SimplifyPathKt" />
+      <module name="algorithms.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidParenthesesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.ValidParenthesesKt" />
+      <module name="algorithms.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.LinkedListCycleKt" />
+        <item itemvalue="Kotlin.BasicCalculatorKt" />
+        <item itemvalue="Kotlin.SimplifyPathKt" />
+        <item itemvalue="Kotlin.ValidParenthesesKt" />
+        <item itemvalue="Kotlin.BurstBalloonsWithArrowKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5bb9ad63-eed7-4690-b695-c05e7ee7630b" name="Changes" comment="" />
+      <created>1687253072400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687253072400</updated>
+      <workItem from="1687253073416" duration="6130000" />
+      <workItem from="1687338526433" duration="2828000" />
+      <workItem from="1688128592723" duration="73000" />
+      <workItem from="1688128719009" duration="4671000" />
+      <workItem from="1688210478804" duration="12497000" />
+      <workItem from="1688292932872" duration="17293000" />
+      <workItem from="1688413378028" duration="5052000" />
+      <workItem from="1688460886226" duration="13267000" />
+      <workItem from="1688723654502" duration="16517000" />
+      <workItem from="1688826388434" duration="324000" />
+      <workItem from="1688826726981" duration="1511000" />
+      <workItem from="1688907325641" duration="8107000" />
+      <workItem from="1689001765321" duration="3870000" />
+      <workItem from="1689072754360" duration="11499000" />
+      <workItem from="1689241451769" duration="20225000" />
+      <workItem from="1689340867275" duration="4664000" />
+      <workItem from="1689415731507" duration="3353000" />
+      <workItem from="1689508472698" duration="11274000" />
+      <workItem from="1689581537005" duration="572000" />
+      <workItem from="1689609138791" duration="7592000" />
+      <workItem from="1689675597715" duration="14985000" />
+      <workItem from="1689841967749" duration="153000" />
+      <workItem from="1689842200154" duration="376000" />
+      <workItem from="1689842593906" duration="4337000" />
+      <workItem from="1689850967745" duration="1259000" />
+      <workItem from="1689936737377" duration="14630000" />
+      <workItem from="1690015055465" duration="21909000" />
+      <workItem from="1690178978368" duration="8755000" />
+      <workItem from="1690286157664" duration="11485000" />
+      <workItem from="1690480584695" duration="13053000" />
+      <workItem from="1690562601348" duration="8166000" />
+      <workItem from="1690636201731" duration="6967000" />
+      <workItem from="1690884291909" duration="27103000" />
+      <workItem from="1691132645976" duration="3671000" />
+      <workItem from="1691147805334" duration="4640000" />
+      <workItem from="1691161034199" duration="1241000" />
+      <workItem from="1691175415306" duration="491000" />
+      <workItem from="1691309574515" duration="865000" />
+      <workItem from="1691399529847" duration="9352000" />
+      <workItem from="1691440691829" duration="2868000" />
+      <workItem from="1691476238640" duration="10776000" />
+      <workItem from="1691923204238" duration="11184000" />
+      <workItem from="1692691443503" duration="1493000" />
+      <workItem from="1692784179955" duration="9898000" />
+      <workItem from="1692867788113" duration="6441000" />
+      <workItem from="1692948854600" duration="2498000" />
+      <workItem from="1693045906295" duration="2283000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init commit with plenty of problems solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init commit with plenty of problems solved" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/ValidPalindrome.kt</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/matrix/ValidSudoku.kt</url>
+          <line>17</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/hashmap/WordPattern.kt</url>
+          <line>12</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/hashmap/GroupAnagrams.kt</url>
+          <line>21</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/hashmap/HappyNumber.kt</url>
+          <line>21</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/hashmap/ContainsDuplicate2.kt</url>
+          <line>15</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/stack/SimplifyPath.kt</url>
+          <line>30</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

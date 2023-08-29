@@ -5,10 +5,6 @@ fun main() {
 }
 
 class LinkedListCycle {
-    class ListNode(var `val`: Int) {
-        var next: ListNode? = null
-    }
-
     fun hasCycle(head: ListNode?): Boolean {
         var turtle = head
         var hare = head?.next

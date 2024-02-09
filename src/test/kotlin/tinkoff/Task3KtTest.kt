@@ -11,6 +11,8 @@ import org.junit.jupiter.params.provider.Arguments
 import org.junit.jupiter.params.provider.ArgumentsProvider
 import org.junit.jupiter.params.provider.ArgumentsSource
 import java.util.stream.Stream
+import javax.security.auth.callback.ConfirmationCallback.NO
+import javax.security.auth.callback.ConfirmationCallback.YES
 
 class Task3KtTest {
     val logger by logger()

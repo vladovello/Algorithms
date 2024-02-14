@@ -1,4 +1,4 @@
-package frontendmasters
+package frontendmasters.binarytree
 
 fun postorderTraversal(head: TreeNode?): List<Number> {
     val values = mutableListOf<Number>()

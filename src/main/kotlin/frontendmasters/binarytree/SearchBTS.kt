@@ -1,4 +1,4 @@
-package frontendmasters
+package frontendmasters.binarytree
 
 fun searchBST(root: TreeNode?, `val`: Int): TreeNode? {
     return recursive(root, `val`)

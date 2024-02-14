@@ -1,11 +1,11 @@
-package frontendmasters
+package frontendmasters.binarytree
 
 fun isSameTree(p: TreeNode?, q: TreeNode?): Boolean = dfs(p, q)
 
 private fun dfs(p: TreeNode?, q: TreeNode?): Boolean {
-    if (p == null || q == null) return p == null && q == null
-    if (p.`val` != q.`val`) return false
-    return dfs(p.left, q.left) && dfs(p.right, q.right)
+    return if (p == null || q == null) p == null && q == null
+    else if (p.`val` != q.`val`) false
+    else dfs(p.left, q.left) && dfs(p.right, q.right)
 }
 
 private fun bfs(p: TreeNode?, q: TreeNode?): Boolean {

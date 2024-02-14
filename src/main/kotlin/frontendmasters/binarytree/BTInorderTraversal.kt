@@ -1,4 +1,4 @@
-package frontendmasters
+package frontendmasters.binarytree
 
 import java.util.Stack
 

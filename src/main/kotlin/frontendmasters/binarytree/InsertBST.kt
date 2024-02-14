@@ -1,4 +1,4 @@
-package frontendmasters
+package frontendmasters.binarytree
 
 fun insertIntoBST(root: TreeNode?, `val`: Int): TreeNode {
     return if (root == null) TreeNode(`val`) else {

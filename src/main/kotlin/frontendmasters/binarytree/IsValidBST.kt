@@ -1,4 +1,4 @@
-package frontendmasters
+package frontendmasters.binarytree
 
 fun isValidBST(root: TreeNode?): Boolean {
     return if (root == null) false else dfs(root, null, null)

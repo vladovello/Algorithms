@@ -1,4 +1,4 @@
-package frontendmasters
+package frontendmasters.binarytree
 
 fun preorderTraversal(head: TreeNode): List<Int> {
     return walk(head)

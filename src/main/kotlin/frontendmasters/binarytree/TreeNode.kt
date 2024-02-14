@@ -1,4 +1,4 @@
-package frontendmasters
+package frontendmasters.binarytree
 
 class TreeNode(var `val`: Int) {
     var left: TreeNode? = null

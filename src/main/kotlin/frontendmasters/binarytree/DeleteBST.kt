@@ -1,4 +1,4 @@
-package frontendmasters
+package frontendmasters.binarytree
 
 // This solution has bad effect on the height of the tree,
 // because it's simply connects the left child of the node being deleted to the leftmost child of the right child, thus

@@ -1,10 +1,10 @@
-val kotlinVersion = "1.9.22"
-val coroutinesVersion = "1.7.3"
-val junitVersion = "5.9.2"
-val kotestVersion = "5.8.0"
+val kotlinVersion = "2.0.0"
+val coroutinesVersion = "1.8.1"
+val junitVersion = "5.10.2"
+val kotestVersion = "5.9.0"
 
 plugins {
-    kotlin("jvm") version "1.9.22"
+    kotlin("jvm") version "2.0.0"
 }
 
 group = "org.example"
@@ -22,6 +22,12 @@ dependencies {
     testImplementation("io.kotest:kotest-runner-junit5:$kotestVersion")
     testImplementation("org.junit.jupiter:junit-jupiter:$junitVersion")
     testImplementation("org.junit.jupiter:junit-jupiter:$junitVersion")
+}
+
+configure<SourceSetContainer> {
+    named("main") {
+        java.srcDir("src/main/kotlin")
+    }
 }
 
 configure<SourceSetContainer> {

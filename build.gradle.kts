@@ -4,7 +4,7 @@ val junitVersion = "5.10.2"
 val kotestVersion = "5.9.0"
 
 plugins {
-    kotlin("jvm") version "2.0.0"
+    kotlin("jvm") version "2.1.20"
 }
 
 group = "org.example"

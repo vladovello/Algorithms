@@ -10,20 +10,14 @@ fun main() {
 
 private fun validPalindrome(s: String): Boolean = validPalindromeInternal(s)
 
-private fun validPalindromeInternal(
-    s: String,
-    left: Int = 0,
-    right: Int = s.lastIndex,
-    hasDeletion: Boolean = false
-): Boolean {
+private fun validPalindromeInternal(s: String, left: Int = 0, right: Int = s.lastIndex, hasDeletion: Boolean = false): Boolean {
     var left = left
     var right = right
 
     while (left < right) {
         if (s[left] != s[right]) {
             if (hasDeletion) return false
-            return validPalindromeInternal(s, left + 1, right, true) ||
-                    validPalindromeInternal(s, left, right - 1, true)
+            return validPalindromeInternal(s, left + 1, right, true) || validPalindromeInternal(s, left, right - 1, true)
         }
         ++left
         --right
@@ -37,8 +31,7 @@ private fun validPalindrome2(s: String): Boolean {
     var right = s.lastIndex
 
     while (left < right) {
-        if (s[left] != s[right]) return isValidPalindromeRange(s, left + 1, right) ||
-                isValidPalindromeRange(s, left, right - 1)
+        if (s[left] != s[right]) return isValidPalindromeRange(s, left + 1, right) || isValidPalindromeRange(s, left, right - 1)
         ++left
         --right
     }

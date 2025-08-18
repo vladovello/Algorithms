@@ -1,6 +1,7 @@
 package frontendmasters.heap
 
 class MinHeap<T : Comparable<T>> {
+
     private val nodes: MutableList<T>
     private var size: Int
 
@@ -84,24 +85,24 @@ class MinHeap<T : Comparable<T>> {
     private fun heapifyDown(index: Int) {
         checkIndex(index, size)
 
-        var currentIndex = index
+        var currentIdx = index
         while (true) {
-            val leftIndex = leftChildIndex(currentIndex)
-            val rightIndex = rightChildIndex(currentIndex)
+            val leftChildIdx = leftChildIndex(currentIdx)
+            val rightChildIdx = rightChildIndex(currentIdx)
 
-            if (leftIndex >= size) break
+            if (leftChildIdx >= size) break
 
             // Should swap with the left branch
-            if (rightIndex >= size || nodes[leftIndex] <= nodes[rightIndex]) {
-                if (nodes[leftIndex] < nodes[currentIndex]) {
-                    swap(currentIndex, leftIndex)
-                    currentIndex = leftIndex
+            if (rightChildIdx >= size || nodes[leftChildIdx] <= nodes[rightChildIdx]) {
+                if (nodes[leftChildIdx] < nodes[currentIdx]) {
+                    swap(currentIdx, leftChildIdx)
+                    currentIdx = leftChildIdx
                 } else break
                 // Should swap with right branch
             } else {
-                if (nodes[rightIndex] < nodes[currentIndex]) {
-                    swap(currentIndex, rightIndex)
-                    currentIndex = rightIndex
+                if (nodes[rightChildIdx] < nodes[currentIdx]) {
+                    swap(currentIdx, rightChildIdx)
+                    currentIdx = rightChildIdx
                 } else break
             }
         }
@@ -115,12 +116,13 @@ class MinHeap<T : Comparable<T>> {
 
     private fun parentIndex(index: Int): Int = if (index == ROOT_INDEX) -1 else (index - 1) / 2
     private fun leftChildIndex(parent: Int): Int = 2 * parent + LEFT_CHILD_TERM
-    private fun rightChildIndex(index: Int): Int = 2 * index + RIGHT_CHILD_TERM
+    private fun rightChildIndex(parent: Int): Int = 2 * parent + RIGHT_CHILD_TERM
 
     companion object {
+
         private const val ROOT_INDEX = 0
         private const val LEFT_CHILD_TERM = 1
-        private const val RIGHT_CHILD_TERM = 1
+        private const val RIGHT_CHILD_TERM = 2
 
         private fun checkIndex(index: Int, size: Int) {
             if (index >= size) throw IndexOutOfBoundsException("index: $index, size: $size")

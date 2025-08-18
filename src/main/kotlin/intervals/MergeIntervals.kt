@@ -20,6 +20,7 @@ fun main() {
 }
 
 class MergeIntervals {
+
     fun merge(intervals: Array<IntArray>): Array<IntArray> {
         intervals.sortBy { it[0] }
 

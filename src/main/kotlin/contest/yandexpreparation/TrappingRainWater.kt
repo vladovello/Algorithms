@@ -58,10 +58,10 @@ fun trapShit2(height: IntArray): Int {
     val rightStack = Stack<Int>()
     var capacity = 0
 
-//    while (leftMax < height.size && rightMax >= 0) {
+    // while (leftMax < height.size && rightMax >= 0) {
     while (left < right) {
-//        if () {
-//        }
+        // if () {
+        // }
         if (height[leftMax] < height[left]) leftStack.push(height[leftMax++])
         else {
             while (leftStack.isNotEmpty()) capacity += height[left] - leftStack.pop()

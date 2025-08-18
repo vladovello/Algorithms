@@ -13,10 +13,6 @@ import kotlinx.coroutines.*
 //    println("asf")
 //}
 
-fun longestOnes(nums: IntArray, k: Int): Int {
-
-}
-
 suspend fun someFun(num: Int): Int {
     var counter = 0
     println("Before delay")

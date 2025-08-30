@@ -1,4 +1,4 @@
-val kotlinVersion: String = "2.1.20"
+val kotlinVersion: String = "2.2.10"
 val coroutinesVersion: String = "1.8.1"
 val junitVersion: String = "5.10.2"
 val kotestVersion: String = "5.9.0"
@@ -6,7 +6,7 @@ val jcstressVersion: String = "0.16"
 
 plugins {
     java
-    kotlin("jvm") version "2.1.20"
+    kotlin("jvm") version "2.2.10"
 }
 
 group = "org.example"
@@ -31,6 +31,12 @@ dependencies {
 configure<SourceSetContainer> {
     named("main") {
         java.srcDir("src/main/kotlin")
+    }
+}
+
+kotlin {
+    compilerOptions {
+        freeCompilerArgs.add("-Xcontext-parameters")
     }
 }
 

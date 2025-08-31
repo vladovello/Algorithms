@@ -1,4 +1,4 @@
-package backlog
+package dynamicprogramming
 
 fun main() {
     val nums = intArrayOf(3, 2, 1, 0, 4)

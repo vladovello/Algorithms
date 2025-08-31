@@ -1,3 +1,5 @@
+package backlog
+
 fun main() {
     val nums = intArrayOf(3, 2, 1, 0, 4)
     println(JumpGame().canJump(nums))

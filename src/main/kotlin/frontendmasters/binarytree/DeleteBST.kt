@@ -27,8 +27,8 @@ fun deleteNode(root: TreeNode?, key: Int): TreeNode? {
     return root
 }
 
-const val LEFT = 0
-const val RIGHT = 1
+const val LEFT: Int = 0
+const val RIGHT: Int = 1
 
 private fun findWithParent(root: TreeNode, key: Int): Triple<TreeNode?, TreeNode, Int>? {
     var node: TreeNode? = root

@@ -1,9 +1,5 @@
 package contest.yandexpreparation
 
-fun main() {
-
-}
-
 fun findAnagrams2(s: String, p: String): List<Int> {
     val letters = IntArray(26)
     for (c in p) ++letters[c - 'a']
